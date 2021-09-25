@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "amplifyphotobooks79fb07706": {}
+      },
+      "function": {
+        "AmplifyPhotoProcessor": {
+          "deploymentBucketName": "amplify-amplifyphotobooks7-dev-174127-deployment",
+          "s3Key": "amplify-builds/AmplifyPhotoProcessor-455a375a696138784b66-build.zip"
+        }
       }
     }
   }
