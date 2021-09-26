@@ -30,7 +30,8 @@ async function loadImage(bucket, key) {
 // Resize image to thumbnail and convert to JPEG; then put put in S3.
 //
 async function createThumbnail(bucket, key, image) {
-    const thumbKey = key.replace("images", "thumbs").replace(/\.[^.]+$/, ".jpg");
+    // eslint-disable-next-line no-useless-escape
+    const thumbKey = key.replace("images", "thumbs").replace(/\.[^\.]+$/, ".jpg");
 
     try {
         // Use Sharp to resize the image to and convert to JPEG format

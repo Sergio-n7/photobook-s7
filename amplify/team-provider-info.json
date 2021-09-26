@@ -18,7 +18,7 @@
       "function": {
         "AmplifyPhotoProcessor": {
           "deploymentBucketName": "amplify-amplifyphotobooks7-dev-174127-deployment",
-          "s3Key": "amplify-builds/AmplifyPhotoProcessor-455a375a696138784b66-build.zip"
+          "s3Key": "amplify-builds/AmplifyPhotoProcessor-4274426d687a32347859-build.zip"
         }
       }
     }
