@@ -1,0 +1,17 @@
+{
+    "CreateAPIKey": 0,
+    "AppSyncApiName": "AmplifyPhotosApi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authamplifyphotobooks79fb07706",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "S3DeploymentBucket": "amplify-amplifyphotobooks7-dev-174127-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/74c6ffb4810f62bb001ad7f53bdf84c7c5d14c9d"
+}
