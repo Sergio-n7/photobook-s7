@@ -19,8 +19,11 @@ export const albumInfo = {
     actions: {
         async createAlbum({ dispatch }, newAlbum) {
             try {
+                console.log(createAlbumMutation, newAlbum)
+                await API.graphql(graphqlOperation(listAlbumsQuery))
                 await API.graphql(graphqlOperation(createAlbumMutation, { input: newAlbum }))
 
+                
                 dispatch("getAlbumsData");
 
             } catch (error) {

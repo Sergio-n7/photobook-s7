@@ -93,7 +93,6 @@
           ]
         },
         "Runtime": "nodejs14.x",
-        "memorySize": 1536,
         "Layers": [],
         "Timeout": 25
       }
